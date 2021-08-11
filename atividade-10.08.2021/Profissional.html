@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulário Profissional</title>
+    </head>
+    <body>
+        
+        <h2>Formulário</h2>
+        <form>
+            <fieldset>
+            <fieldset> 
+                <legend>Dados Pessoais</legend>
+                Nome: <input type="text" id="nome" name="nome" > <br><br>                
+                Endereço: <input type="text" id="endereço" name="Cidade"><br><br>               
+                Cidade: <input type="text" id="Cidade" name="Cidade"><br><br>
+
+                Estado: <select name="Estado">
+                    <option value="SaoPaulo">São Paulo</option>
+                    <option value="RiodeJaneiro">Rio de Janeiro</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Manaus">Manaus</option>
+                    <option value="Acre">Acre</option>
+                </select>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                Natureza do Cargo<br>
+               <input type="radio" id="Gerencia" name="Gerencia">  <label for="Gerencia">Gerência</label>  <input type="radio" id="Financeiro" name="Financeiro"> <label for="Financeiro">Financeiro</label> <input type="radio" id="Recepção" name="Recepção"> <label for="Recepção">Recepção</label> <input type="radio" id="Administrativo" name="Administrativo"> <label for="Administrativo">Administrativo</label> <input type="radio" id="Jurídico" name="Jurídico"> <label for="Jurídico">Jurídico</label><br><br>
+
+               Área de Interesse <br>
+               <input type="checkbox" id="Computação" name="Computação"> <label for="Computçaão">Computção</label> <input type="checkbox" id="Biologia" name="Biologia"> <label for="Biologia">Biologia</label> <input type="checkbox" id="MeioAmbiente" name="MeioAmbiente"> <label for="MeioAmbiente">Meio Ambiente</label> <input type="checkbox" id="Engenharia" name="Engenharia"> <label for="Engenharia">Engenharia</label> <input type="checkbox" id="História" name="História"> <label for="História">História</label><br><br>
+
+               Mini-Currículo:
+               <textarea name="Mensagem" cols="50" rows="6"></textarea>
+            </fieldset>
+            <input type="submit" value="Enviar"> <input type="submit" value="Limpar">
+            </fieldset>
+        </form>
+    </body>
+</html>

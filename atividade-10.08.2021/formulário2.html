@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Manutenção do Órgão Colegiado📦</title>
+    </head>
+    <body>
+        <fieldset style="width: 38%; margin-left: 30%;">
+            <header>
+                <h3><span style="color: orangered;">▶</span> Manutenção do Órgão Colegiado</h3>
+            </header>
+            <table border="2" style="margin-left: 100px;">
+                <caption></caption>
+                <tr>
+                    <th style="background-color: #E3EBEE">Unidade</th>
+                    <td>FACULDADE DE ENGENHARIA DE ILHA SOLTEIRA</td>
+                </tr>
+                <tr>
+                    <th style="background-color: #E3EBEE">Tipo Colegiado</th>
+                    <td>CONGREGAÇÃO</td>
+                </tr>
+            </table>
+            <br>
+            <form>
+                <fieldset style="width: 700px;">
+                    <h1 style="background-color: #E3EBEE">Órgão Colegiado</h1>
+                    <label for="nome"><b>Nome</b></label>
+                    <input type="text" id="nome" name="nome" style="margin-left: 90px; width: 400px;">
+                    <br><br>
+                    <label for="sigla"><b>Sigla</b></label>
+                    <input type="text" id="sigla" name="sigla" style="margin-left: 95px; width: 50px;">
+    
+                    <label for="status" style="margin-left: 250px;"><b>Status</b></label>
+                    <select name="status" id="status" style="margin-left: 50px;">
+                        <option value="status" disabled selected>Status</option>
+                        <option value="ativado">Ativado</option>
+                        <option value="desativado">Desativado</option>
+                    </select>
+    
+                    <br><br>
+                    <label for="data_ativacao"><b><b>Data de Ativação</b></b></label>
+                    <input type="date" id="data_ativacao" name="data_ativacao" style="margin-left: 13px; width: 130px;">
+    
+                    <label for="data_desativacao" style="margin-left: 170px;"><p style="display: inline-block;"><b>Data <br> Desativação</b></p></label>
+    
+                    <input type="date" name="data_desativacao" id="data_desativacao">
+    
+                    <br>
+                    <label for="orgao_de_origem"><b>Órgão de Origem</b></label>
+                    <input type="text" id="orgao_de_origem" name="orgao_de_origem" style="margin-left: 13px; width: 400px;">
+                    <input type="button" value="Buscar">
+                    <br><br>
+                    <label for="orgao_superior"><b>Órgão Superior</b></label>
+                    <input type="text" id="orgao_superior" name="orgao_superior" style="margin-left: 25px; width: 400px;">
+                    <input type="button" value="Buscar">
+                    <br><br>
+                    <label for="documentacao"><b>Documentacao</b></label>
+                    <textarea name="documentacao" id="documentacao" cols="30" rows="4" style="margin-left: 37px;"></textarea>
+                    <br><br>
+                    <input type="submit" value="Salvar" name="salvar" id="salvar" style="margin-left: 150px;">
+                    <input type="button" value="Excluir" name="excluir" id="excluir" style="margin-left: 250px;">
+                </fieldset>
+            </form>
+        </fieldset>
+    </body>
+</html>
